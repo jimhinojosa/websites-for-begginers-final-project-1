@@ -2,7 +2,6 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.107em;
-
 }
 .logo{
     height: 50px;
@@ -26,7 +25,10 @@ header{
     width: 100%;
     margin: 0;
     text-align: center;
-    display: inline-block;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .headerdiv2>p{
     margin: 0;
@@ -82,48 +84,39 @@ header>:hover{
     text-align: center;
     letter-spacing: 0.107em;
 } 
-  
-}
 .info>h1{
     margin: 0;
     letter-spacing: 0.107em;
+    font-weight: normal;
+    font-stretch: extra-expanded;
 }
 .break{
     width: 100%;
 }
-
 .line{
     border: 1px #f7f7f7 solid;
     width: 60%;
     line-height: 1.5;
     display: block;
-   
-}
-.covid{
- 
 }
 .book{
-  border: #f7f7f7 10px solid;
+  border: #f7f7f7 1px solid;
   text-decoration: none;
-  color: black;
-  background-color: #f7f7f7;
-  border-radius: 5px;
+  color:#f7f7f7;
+  background-color: black;
+  border-radius: 25px;
+  padding: 15px;
+  margin: 0;
 }
 
   .booknow>:hover{
-    background-color:black;
-    color: #f7f7f7;
-    height: 100%;
-    width: 100%;
+    background-color: #f7f7f7;
+    color: black;
+    padding: 15px;
+    transition: 1s;
     margin: 0;
-    border: solid black 10px;
-    
-}
-.booknow>a:link{
-    color: #f7f7f7;
-}
-.booknow>a:visited{
-    color: red;
+    border: solid black 1px;
+    border-radius: 25px;
 }
 .pic1{
     margin: 0;
@@ -140,5 +133,27 @@ header>:hover{
     width: 85%;
     height: 85%;
     border: 8px #f7f7f7 solid;
-
+}
+.secheaders{
+    margin: 0;
+    height: 125px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+.linebreaks{
+    border: black 1px solid;
+    width: 400px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.collage{
+    height: 1800px;
+    width: 80%;
+    margin: 0 auto;
+    outline: black solid 1px;
 }
