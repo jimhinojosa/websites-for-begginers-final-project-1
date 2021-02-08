@@ -152,8 +152,38 @@ header>:hover{
     margin-right: 25px;
 }
 .collage{
-    height: 1800px;
+    height: 1220px;
     width: 80%;
     margin: 0 auto;
     outline: black solid 1px;
 }
+.leftcollage{
+    height: 1220px;
+    width: 35%;
+    margin: 0;
+    display: inline-block;
+}
+.toppic{
+    height: 400px;
+    width: 100%;
+    margin: 0;
+}
+.bottompic{
+    height: 400px;
+    width: 100%;
+    margin: 0;
+}
+.middleblank{
+    height: 1220px;
+    width: 28%;
+    margin: 0;
+    outline: black solid 1px;
+    display: inline-block;
+}
+.rightcollage{
+    height: 1220px;
+    width: 35%;
+    margin: 0;
+    display: inline-block;
+}
+
