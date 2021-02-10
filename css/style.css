@@ -167,13 +167,11 @@ header>:hover{
     height: 100%;
     width: 100%;
     margin: 0;
-    float: left;
 }
 .bottompic{
     height: 100%;
     width: 100%;
     margin: 0;
-    float: left;
 }
 .middleblank{
     height: 1200px;
@@ -189,15 +187,34 @@ header>:hover{
     float: left;
 }
 .collagedivs{
-    padding: 3px;
-    padding-bottom: 0px;
+    margin: 3px;
+    margin-bottom: 0;
     height: 400px;
     width: 100%;
 }
 .collagedivsb{
     padding: 3px;
-    padding-top: 0;
-    padding-bottom: 0;
     height: 400px;
     width: 100%;
+}
+.services{
+    width: 80%;
+    height: 900px;
+    margin: 0 auto;
+}
+.upperleft{
+    height: 300px;
+    width: 35%;
+    text-align: center;
+}
+.bold{
+    font-size: 26px;
+    font-weight: 900;
+    letter-spacing: 0;
+}
+.upperright{
+    height: 300px;
+    width: 35%;
+    text-align: center;
+    float: right;
 }
