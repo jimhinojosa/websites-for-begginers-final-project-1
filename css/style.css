@@ -1,11 +1,15 @@
+div{
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.107em;
 }
-.logo{
-    height: 50px;
-    width: 100px;
+.icon{
+    size: 3x;
+    height: 20px;
 }
 header{
     height: 50px;
@@ -158,7 +162,7 @@ header>:hover{
     outline: black solid 1px;
 }
 .leftcollage{
-    height: 1200px;
+    height: 100%;
     width: 35%;
     margin: 0;
     float: left;
@@ -174,21 +178,21 @@ header>:hover{
     margin: 0;
 }
 .middleblank{
-    height: 1200px;
+    height: 100%;
     width: 30%;
     margin: 0;
-    outline: black solid 1px;
     float: left;
+  
 }
 .rightcollage{
-    height: 1200px;
+    height: 100%;
     width: 35%;
     margin: 0;
     float: left;
 }
 .collagedivs{
-    margin: 3px;
-    margin-bottom: 0;
+    padding: 3px;
+    padding
     height: 400px;
     width: 100%;
 }
@@ -201,6 +205,9 @@ header>:hover{
     width: 80%;
     height: 900px;
     margin: 0 auto;
+}
+.upperleft,.upperright{
+    display: inline-block;
 }
 .upperleft{
     height: 300px;
