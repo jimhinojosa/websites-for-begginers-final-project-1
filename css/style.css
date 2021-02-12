@@ -10,6 +10,9 @@ body{
 .icon{
     size: 3x;
     height: 20px;
+    font-size: 40px;
+    position: relative;
+    top: -10px;
 }
 header{
     height: 50px;
@@ -159,7 +162,6 @@ header>:hover{
     height: 1200px;
     width: 80%;
     margin: 0 auto;
-    outline: black solid 1px;
 }
 .leftcollage{
     height: 100%;
@@ -224,4 +226,8 @@ header>:hover{
     width: 35%;
     text-align: center;
     float: right;
+}
+.vids{
+    margin: 3px;
+    margin-bottom: 0;
 }
