@@ -177,12 +177,13 @@ body{
     height: 1200px;
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 .leftcollage{
     height: 100%;
-    width: 35%;
+    width: 34%;
     margin: 0;
-    float: left;
 }
 .toppic{
     height: 100%;
@@ -198,14 +199,11 @@ body{
     height: 100%;
     width: 30%;
     margin: 0;
-    float: left;
-  
 }
 .rightcollage{
     height: 100%;
-    width: 35%;
+    width: 34%;
     margin: 0;
-    float: left;
 }
 .collagedivs{
     padding: 3px;
@@ -219,8 +217,8 @@ body{
     width: 100%;
 }
 .pricesimg{
-    height: 547px;
-    width: 340px;
+    height: 33%;
+    width: 100%;
     margin: 0;
 }
 .services{
