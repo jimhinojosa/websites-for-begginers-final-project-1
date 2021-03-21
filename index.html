@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/94e52f2fdf.js" crossorigin="anonymous"></script>
 </head>
@@ -18,16 +19,31 @@
             </div>
         </a>
     </header>
-    <div class="nav">
-        <div class="nav2">
-            <p>HOME</p>
-            <p>BOOKING</p>
-            <p>COVID-19</p>
-            <P>CONTACT</P>
-            <p>INFO</p>
-            <p>REVIEWS</p>
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top nav">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="https://www.instagram.com/keniasbeauty/?hl=en">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/keniasbeauty/?hl=en">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/keniasbeauty/?hl=en">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/keniasbeauty/?hl=en">Book Appointment</a>
+              <li class="nav-item">
+                  <a class="nav-link" href="https://www.instagram.com/keniasbeauty/?hl=en">Covid Protocols</a>
+              </li>
+            </li>
+          </ul>
         </div>
-    </div>
+      </nav>
     <div class="one">
         <div class="infocovidbook">
             <div class="info">
@@ -143,5 +159,7 @@
       
         </form>
       </div>
-</body>
+      <script src="/js/bootstrap.bundle.min.js"></script>
+      <script src="/js/jquery.min.js"></script>
+    </body>
 </html>
