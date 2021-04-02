@@ -141,7 +141,7 @@ body{
 .pic1{
     margin: 0;
     width: 50%;
-    height: 475px;
+    height: 100%;
     float: left;
     display: flex;
     flex-flow: column nowrap;
@@ -289,3 +289,39 @@ input[type=text], select, textarea {
       height: 50px;
       width: 150px;
   }
+ .carousel-inner{
+     height: 95vh;
+ }
+ .carouselbackgroundimg{
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: contain;
+     height: 100%;
+     width: 100%;
+ }
+#carouselslide1{
+    background-image: url(../img/model2.jpg);
+    transform: rotate(-90deg);
+}
+#carouselslide2{
+    background-image: url(../img/model3.jpg);
+    transform: rotate(180deg);
+}
+#carouselslide3{
+    background-image: url(../img/model4.jpg);
+    transform: rotate(180deg);
+}
+#carouselslide4{
+    background-image: url(../img/model5.jpg);
+    transform: rotate(180deg);
+}
+#carouselslide5{
+    background-image: url(../img/model6.jpg);
+    transform: rotate(180deg);
+}
+#carouselslide6{
+    background-image: url(../img/prices.jpg);
+}
+.ci{
+    background-color: black;
+}
