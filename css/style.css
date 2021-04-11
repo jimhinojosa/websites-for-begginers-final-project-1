@@ -142,7 +142,6 @@ body{
     margin: 0;
     width: 50%;
     height: 100%;
-    float: left;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -152,7 +151,12 @@ body{
     margin: 0;
     width: 85%;
     height: 85%;
-    border: 8px #f7f7f7 solid;
+    border: 6px #f7f7f7 solid;
+    background-image: url(../img/logo.jpg);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
 .secheaders{
     margin: 0;
@@ -324,4 +328,14 @@ input[type=text], select, textarea {
 }
 .ci{
     background-color: black;
+}
+@media screen and (max-width: 900px) {
+    .one {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 1000px;
+    }
+
 }
